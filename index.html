@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Todo List</title>
+
+    <!-- Link Google Font for text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img-container">
+      <img src="/public/profile-img.png" alt="profile-img" />
+      <div class="title-container">
+        <h1>My Daily Todo List</h1>
+        <p>A little space to organize my day ♡</p>
+      </div>
+    </div>
+
+    <form onsubmit="return false;">
+      <textarea placeholder="What on your mind? ✿"></textarea>
+      <button id="addBtn">
+        <p>Add Task</p>
+      </button>
+    </form>
+    <section>
+      <h4>
+        My Current Todo List
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </h4>
+      <div class="todo-container">
+        <!-- <div class="todo">
+          <p>This is the todo that I have to complete by the end of the day!</p>
+          <div class="btn-container">
+            <button class="icon-btn">
+              <i class="fa-regular fa-pen-to-square"></i>
+            </button>
+            <button class="icon-btn">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </body>
+  <!-- Link custom script -->
+  <script src="index.js"></script>
+</html>

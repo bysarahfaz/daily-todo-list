@@ -1,6 +1,8 @@
 # Daily Todo List
 
-A cute and simple daily to-do list website designed to help organise everyday tasks. Built with HTML, CSS, and JavaScript as a web development learning project, with customised styling inspired by a soft pink and cat-themed aesthetic.
+A cute and simple daily to-do list designed to help organise everyday tasks. Built with HTML, CSS, and JavaScript as a web development learning project, with customised styling inspired by a soft pink and cat-themed aesthetic.
+
+[View the live website](https://daily-todo-list-practice.netlify.app/)
 
 ## Features
 

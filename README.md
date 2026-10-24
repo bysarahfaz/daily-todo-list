@@ -8,7 +8,6 @@ A cute and simple daily to-do list website designed to help organise everyday ta
 - Edit existing tasks
 - Delete tasks
 - Save tasks in local storage so they remain available after refreshing the page
-- Cute, cat-inspired design with a soft pink colour palette
 
 ## Technologies
 
